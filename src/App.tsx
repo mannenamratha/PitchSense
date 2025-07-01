@@ -724,21 +724,12 @@ function App() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 {[
                   {
-                    name: 'Sneha Dindi',
+                    name: 'Manne Namratha Sai',
                     image: '/api/placeholder/150/150',
                     social: {
-                      instagram: 'https://instagram.com/sneha_dindi',
-                      linkedin: 'https://linkedin.com/in/sneha-dindi',
-                      github: 'https://github.com/snehadindi'
-                    }
-                  },
-                  {
-                    name: 'Dasari Manvanth',
-                    image: '/api/placeholder/150/150',
-                    social: {
-                      instagram: 'https://instagram.com/manvanth.d',
-                      linkedin: 'https://linkedin.com/in/d-manvanth',
-                      github: 'https://github.com/dasarimanvanth'
+                      instagram: 'https://instagram.com/mannenamratha',
+                      linkedin: 'https://linkedin.com/in/manne-namratha-sai-029771259',
+                      github: 'https://github.com/mannenamratha'
                     }
                   },
                   {
@@ -751,12 +742,21 @@ function App() {
                     }
                   },
                   {
-                    name: 'Manne Namratha Sai',
+                    name: 'Dasari Manvanth',
                     image: '/api/placeholder/150/150',
                     social: {
-                      instagram: 'https://instagram.com/mannenamratha',
-                      linkedin: 'https://linkedin.com/in/manne-namratha-sai-029771259',
-                      github: 'https://github.com/mannenamratha'
+                      instagram: 'https://instagram.com/manvanth.d',
+                      linkedin: 'https://linkedin.com/in/d-manvanth',
+                      github: 'https://github.com/dasarimanvanth'
+                    }
+                  },
+                  {
+                    name: 'Sneha Dindi',
+                    image: '/api/placeholder/150/150',
+                    social: {
+                      instagram: 'https://instagram.com/sneha_dindi',
+                      linkedin: 'https://linkedin.com/in/sneha-dindi',
+                      github: 'https://github.com/snehadindi'
                     }
                   }
                 ].map((founder, index) => (
